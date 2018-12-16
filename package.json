@@ -1,0 +1,19 @@
+{
+  "name": "CucumberE2EPlatform",
+  "version": "1.0.0",
+  "description": "Node app to end to end test projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cucumber": "^5.0.3"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
